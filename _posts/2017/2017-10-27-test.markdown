@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Dojo avancé 2017 test"
+date:   2017-10-28 10:47:04 +0200
+categories: history
+---
+
+
+blah blahb laj

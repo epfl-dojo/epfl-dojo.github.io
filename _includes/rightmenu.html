@@ -1,0 +1,7 @@
+<ul class="nav flex-column">
+  {% assign catList = site.categories %}
+  {% for category in catList %}
+    <li class="nav-item">
+      <a class="nav-link" href="#">{{category[0]}}</a>
+    </li>  {% endfor %}
+</ul>

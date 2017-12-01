@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+  <div class="jumbotron">
+    <h1 class="display-3">This is the dojo history page</h1>
+    <p class="lead">Ce site a pour but de décrire ce qu'est un dojo à l'EPFL</p>
+  </div>
+  <ul>
+    {% for post in site.categories["history"] %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+  <select name="selectedCategory">
+    {% assign catList = site.categories %}
+    {% for category in catList %}
+      <option>{{ category[0] | upcase }}</option>
+    {% endfor %}
+  </select>
