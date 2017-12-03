@@ -10,7 +10,7 @@ Un dojo ?
 ---------
 Un "dojo de programmation" est une réunion réunissant des codeurs de tous niveaux pour travailler sur un problème commun, dans le but d'acquérir des compétences, de collaborer dans un environnement non-compétitif et amusant, permettant de partager les expériences de chacun.
 
-  Voir http://codingdojo.org/cgi-bin/index.pl?WhatIsCodingDojo pour plus de détails
+  Voir <http://codingdojo.org/cgi-bin/index.pl?WhatIsCodingDojo> pour plus de détails
 
 ## Déroulement
 
