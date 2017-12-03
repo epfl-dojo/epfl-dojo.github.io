@@ -1,21 +1,42 @@
 ---
+title: history
+permalink: history.html
 layout: default
 ---
+<h1>Historique des sessions</h1>
 
-  <div class="jumbotron">
-    <h1 class="display-3">History</h1>
-    <p class="lead">It keeps a track on what we have done during dojos.</p>
-  </div>
-  <ul>
-    {% for post in site.categories["history"] %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-  <select name="selectedCategory">
-    {% assign catList = site.categories %}
-    {% for category in catList %}
-      <option>{{ category[0] | upcase }}</option>
-    {% endfor %}
-  </select>
+<h2 id="dojos-presentations">Présentations</h2>
+<ul>
+  {% for post in site.categories["presentation"] %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+<h2 id="dojos-workshop">Workshops</h2>
+<ul>
+  {% for post in site.categories["workshop"] %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+<h2 id="dojos-avances">Dojos avancés</h2>
+<ul>
+  {% for post in site.categories["advanced"] %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+<h2 id="dojos-apprentis">Dojos apprentis</h2>
+<ul>
+  {% for post in site.categories["apprentis"] %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
