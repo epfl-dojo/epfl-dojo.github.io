@@ -22,19 +22,19 @@ https://getbootstrap.com/docs/4.0/getting-started/introduction/
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
+        <li class="nav-item {% if page.url contains '/index.html' %}active{% endif %}">
           <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item {% if page.url contains '/history.html' %}active{% endif %}">
           <a class="nav-link" href="/history.html">Historique</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item {% if page.url contains '/charte.html' %}active{% endif %}">
           <a class="nav-link" href="/charte.html">Charte</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item {% if page.url contains '/about' %}active{% endif %}">
           <a class="nav-link" href="/about.html">About</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item {% if page.url contains '/contact.html' %}active{% endif %}">
           <a class="nav-link" href="/contact.html">Contact</a>
         </li>
       </ul>
