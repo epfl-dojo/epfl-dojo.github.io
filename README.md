@@ -1,5 +1,5 @@
-# Dojo-Website-Static
-A static website for informations about EPFL dojos.
+# EPFL Dojo website
+A static website for informations about EPFL dojos. Available here: <https://epfl-dojo.github.io/>.
 
 ## Development
 * checkout the repository
