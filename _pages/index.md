@@ -14,7 +14,7 @@ Un "dojo de programmation" est une réunion réunissant des codeurs de tous nive
 
 ## Déroulement
 
-Nos dojos se déroule sous la forme de "randori", c'est à dire qu'un laptop passe de participants à participants toutes les 5 minutes, et chacun à son tour avance selon ses envies et son expérience sur l'exercice de groupe.
+Nos dojos se déroulent sous la forme de "randori", c'est à dire qu'un laptop passe de participants à participants toutes les 5 minutes, et chacun à son tour avance selon ses envies et son expérience sur l'exercice de groupe.
 Il arrive que quelqu'un présente un sujet pendant une session, on parle alors de "kata".
 
 
