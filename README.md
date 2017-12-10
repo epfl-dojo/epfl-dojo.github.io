@@ -19,3 +19,7 @@ wouldn't be enough to run the site locally. You have to setup [jekyll](https://j
 * checkout the repository
 * run (`jekyll serve`)
 * go to the listed URL (e.g. http://localhost:4000)
+
+
+## Links
+* <https://devhints.io/jekyll>
