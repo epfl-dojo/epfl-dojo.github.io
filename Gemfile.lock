@@ -21,6 +21,7 @@ GEM
       jekyll (~> 3.3)
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
+    jekyll-twitter-plugin (2.0.0)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
     kramdown (1.16.2)
@@ -52,9 +53,10 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 3.6.0)
   jekyll-feed (~> 0.6)
+  jekyll-twitter-plugin
   minima (~> 2.0)
   rake
   tzinfo-data
 
 BUNDLED WITH
-   1.16.0
+   1.16.1
