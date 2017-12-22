@@ -15,7 +15,17 @@ To do so, please open a PR on the file CHARTER.md:
 First you have to understand what is Jekyll and how it works. A simple `git clone ...`
 wouldn't be enough to run the site locally. You have to setup [jekyll](https://jekyllrb.com/docs/installation/) first.
 
-* install [jekyll](https://jekyllrb.com/docs/installation/) (e.g. `sudo apt install jekyll`, `bundle install`)
-* checkout the repository
-* run (`jekyll serve`)
+* install [jekyll](https://jekyllrb.com/docs/installation/) (e.g. `sudo apt install jekyll`, `bundle install`);
+* checkout the repository;
+* run (`jekyll serve`);
+* go to the listed URL (e.g. http://localhost:4000).
+
+### Docker
+You can also use Docker compose to run the site in a Docker container.
+
+* be sure to have Docker and Docker compose installed;
+* in the cloned repository, run `docker-compose up` in your terminal;
 * go to the listed URL (e.g. http://localhost:4000)
+
+## Links
+* <https://devhints.io/jekyll>
