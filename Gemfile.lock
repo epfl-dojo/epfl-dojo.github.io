@@ -3,14 +3,7 @@ GEM
   specs:
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
-    autoprefixer-rails (7.2.3)
-      execjs
-    bootstrap (4.0.0.beta2.1)
-      autoprefixer-rails (>= 6.0.3)
-      popper_js (>= 1.12.3, < 2)
-      sass (>= 3.5.2)
     colorator (1.1.0)
-    execjs (2.7.0)
     ffi (1.9.18)
     forwardable-extended (2.6.0)
     jekyll (3.6.2)
@@ -40,7 +33,6 @@ GEM
       jekyll (~> 3.3)
     pathutil (0.16.0)
       forwardable-extended (~> 2.6)
-    popper_js (1.12.9)
     public_suffix (3.0.1)
     rake (12.3.0)
     rb-fsevent (0.10.2)
@@ -58,7 +50,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootstrap (~> 4.0.0.beta2.1)
   jekyll (~> 3.6.0)
   jekyll-feed (~> 0.6)
   minima (~> 2.0)
