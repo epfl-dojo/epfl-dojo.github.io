@@ -23,19 +23,19 @@ https://getbootstrap.com/docs/4.0/getting-started/introduction/
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item {% if page.url contains '/index.html' %}active{% endif %}">
+        <li class="nav-item {% if page.url == '/' %}active{% endif %}">
           <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item {% if page.url contains '/history.html' %}active{% endif %}">
+        <li class="nav-item {% if page.url contains '/history' %}active{% endif %}">
           <a class="nav-link" href="/history">Historique</a>
         </li>
-        <li class="nav-item {% if page.url contains '/charte.html' %}active{% endif %}">
+        <li class="nav-item {% if page.url contains '/charte' %}active{% endif %}">
           <a class="nav-link" href="/charte">Charte</a>
         </li>
         <li class="nav-item {% if page.url contains '/about' %}active{% endif %}">
           <a class="nav-link" href="/about">About</a>
         </li>
-        <li class="nav-item {% if page.url contains '/contact.html' %}active{% endif %}">
+        <li class="nav-item {% if page.url contains '/contact' %}active{% endif %}">
           <a class="nav-link" href="/contact">Contact</a>
         </li>
       </ul>
@@ -55,7 +55,6 @@ https://getbootstrap.com/docs/4.0/getting-started/introduction/
   <script src="{{ "/js/jquery.js" | absolute_url }}"></script>
   <script src="{{ "/js/popper.js" | absolute_url }}"></script>
   <script src="{{ "/js/bootstrap.js" | absolute_url }}"></script>
-  <script src="{{ "/js/application.js" | absolute_url }}" ></script>
   <script src="{{ "/js/automenu.js" | absolute_url }}" ></script>
 
 </body>
