@@ -1,0 +1,9 @@
+version: "3.3"
+services:
+  site:
+    command: rake serve
+    image: jekyll/jekyll:latest
+    volumes:
+      - $PWD:/srv/jekyll
+    ports:
+      - 4000:4000
