@@ -23,32 +23,31 @@ https://getbootstrap.com/docs/4.0/getting-started/introduction/
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item {% if page.url contains '/index.html' %}active{% endif %}">
-          <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item {% if page.url contains '/history.html' %}active{% endif %}">
-          <a class="nav-link" href="/history.html">Historique</a>
+          <a class="nav-link" href="/history">Historique</a>
         </li>
         <li class="nav-item {% if page.url contains '/charte.html' %}active{% endif %}">
-          <a class="nav-link" href="/charte.html">Charte</a>
+          <a class="nav-link" href="/charte">Charte</a>
         </li>
         <li class="nav-item {% if page.url contains '/about' %}active{% endif %}">
-          <a class="nav-link" href="/about.html">About</a>
+          <a class="nav-link" href="/about">About</a>
         </li>
         <li class="nav-item {% if page.url contains '/contact.html' %}active{% endif %}">
-          <a class="nav-link" href="/contact.html">Contact</a>
+          <a class="nav-link" href="/contact">Contact</a>
         </li>
       </ul>
     </div>
   </nav>
 
-  <div id="content" style="display:flex;">
-    <div id="main_content">
-      {{ content }}
-    </div>
-    <div id="menu">
-      {% include automenu.html %}
+  <div id="content" class="container-fluid" style="display:flex;">
+    <div class="row">
+      <div id="main_content" class="offset-md-2 col-md-8">{{ content }}</div>
+      <div id="menu" class="col-md-1">{% include automenu.html %}</div>
     </div>
   </div>
+
 
   <footer class="site-footer"> &lt; &gt; with &hearts; by <a href="https://twitter.com/EPFL_dojo">@epfl-dojo</a></footer>
 

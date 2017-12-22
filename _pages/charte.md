@@ -1,6 +1,6 @@
 ---
 title: Charte
-permalink: charte.html
+permalink: charte
 layout: default
 ---
 

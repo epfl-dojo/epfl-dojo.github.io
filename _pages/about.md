@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: about.html
+permalink: about
 ---
 
 # This is the project README
