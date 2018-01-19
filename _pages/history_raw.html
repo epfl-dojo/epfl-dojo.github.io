@@ -1,0 +1,23 @@
+---
+title: history
+permalink: history_raw.html
+layout: default
+---
+<h1>Historique des activités</h1>
+Voir les activités par type <a href="/history.html">ici</a>.<br />
+<br />
+
+<ul>
+  {% for post in site.posts %}
+      {% assign year = post.date | date: "%Y" %}
+
+      {% if year != prev_year %}
+        <h3>{{year}}</h3>
+      {% endif %}
+
+      <li>
+        <code>{{ post.date | date_to_string }}</code> — <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+      {% assign prev_year = year %}
+  {% endfor %}
+</ul>
