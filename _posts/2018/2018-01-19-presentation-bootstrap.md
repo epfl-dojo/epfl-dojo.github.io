@@ -17,6 +17,12 @@ La présenation est diponible ici: <https://hackmd.io/p/H1yB28iEM#/>.
 
 Les slides sont disponibles ici: <https://hackmd.io/s/H1yB28iEM#/>.
 
+Les cas d'utilisations de Bootstrap4 sont ici: <https://github.com/loichu/Bootstrap4-Showcase> (merci [@loichu](https://github.com/loichu/)).
+
+## Demo
+Après la présentation, présentation du futur site de la STI et l'utilisation des
+outils démontrés.
+
 ## Tweet
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Presentation of current web development tools (<a href="https://twitter.com/hashtag/npm?src=hash&amp;ref_src=twsrc%5Etfw">#npm</a>, <a href="https://twitter.com/hashtag/gulp?src=hash&amp;ref_src=twsrc%5Etfw">#gulp</a>, <a href="https://twitter.com/hashtag/sass?src=hash&amp;ref_src=twsrc%5Etfw">#sass</a>, <a href="https://twitter.com/hashtag/browsersync?src=hash&amp;ref_src=twsrc%5Etfw">#browsersync</a> and <a href="https://twitter.com/hashtag/Bootstrap4?src=hash&amp;ref_src=twsrc%5Etfw">#Bootstrap4</a>) by <a href="https://twitter.com/LocHumbert1?ref_src=twsrc%5Etfw">@LocHumbert1</a> and <a href="https://twitter.com/ponsfrilus?ref_src=twsrc%5Etfw">@ponsfrilus</a> at today&#39;s <a href="https://twitter.com/hashtag/epfldojo?src=hash&amp;ref_src=twsrc%5Etfw">#epfldojo</a>. <a href="https://t.co/KhZaIbAMvp">pic.twitter.com/KhZaIbAMvp</a></p>&mdash; EPFL Dojo (@EPFL_dojo) <a href="https://twitter.com/EPFL_dojo/status/954351036478775296?ref_src=twsrc%5Etfw">January 19, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
