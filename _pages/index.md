@@ -1,6 +1,6 @@
 ---
 title: Index
-permalink: index.html
+permalink: /
 layout: default
 ---
 EPFL dojo

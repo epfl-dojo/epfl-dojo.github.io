@@ -3,3 +3,4 @@ _site
 .jekyll-metadata
 _includes/README.md
 .tweet-cache
+vendor
